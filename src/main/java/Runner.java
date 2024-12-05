@@ -22,6 +22,7 @@ public class Runner {
      * @param in the String value you should change global_var to in.
      */
     public void changeClassVar(String in){
-
+        // calling explicitly static variable 'global_var' from class 'Class' -- similar to instance variable (but NOT ref to obj)
+        Class.global_var = in;
     }
 }
